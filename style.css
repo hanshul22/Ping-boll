@@ -1,0 +1,81 @@
+/* for body edit and background animation */
+body {
+    
+    overflow: hidden;
+    background: linear-gradient(45deg, #146264, #00fbff, #a652ff, #b3ff00);
+    background-size: 400% 400%;
+    animation: gradient 10s infinite;
+    text-align: center;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.heading{
+   font-size: 60px;
+}
+/* first main div */
+.userinfo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.user-name{
+    margin-top:60px;
+}
+
+
+.vs{
+    height: 300px;
+    width: 300px;
+    margin-bottom: -70px;
+}
+
+.button{
+    margin-top: 30px;
+    background-color:cornsilk ;
+    padding: 1%;
+    width:120px ;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.nm{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+
+}
+.userinfo{
+    color: aliceblue;
+    align-items: center;
+}
+
+.h2{
+    font-size: 80px;
+}
+
+
+/* start page ends  */
+
+
+/* Gameover page */
+
